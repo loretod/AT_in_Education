@@ -1,0 +1,15 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: welcome
+chapters:
+- file: definition
+- file: technology
+- file: laws
+- file: learning
+- file: motor
+- file: sensory
+- file: openAT
+- file: glossary
+- file: bibliography
