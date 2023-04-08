@@ -38,7 +38,6 @@ CoWriter developed by Don Johnston is available on....
 ::::
 
 
-
 ```
 
 ```{tab-item} Read & Write
