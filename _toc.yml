@@ -10,6 +10,7 @@ chapters:
 - file: learning
 - file: motor
 - file: sensory
+- file: aac
 - file: openAT
 - file: glossary
 - file: bibliography
