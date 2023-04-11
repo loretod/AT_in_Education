@@ -35,6 +35,7 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -53,6 +54,7 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -224,7 +226,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+      <li><a href="https://github.com/loretod/AT_in_Education" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -241,7 +243,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Flaws.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/loretod/AT_in_Education/issues/new?title=Issue%20on%20page%20%2Flaws.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -363,13 +365,16 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rehabilitation-act-of-1973">The Rehabilitation Act of 1973</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individuals-with-disabilities-education-act">Individuals with Disabilities Education Act</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tech-act-of-1988">Tech Act of 1988</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#americans-with-disabilities-act-of-1990">Americans with Disabilities Act of 1990</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chafee-amendment-of-2002">Chafee Amendment of 2002</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#every-student-succeeds-act-essa-of-2015">Every Student Succeeds Act (ESSA) of 2015</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-laws">Privacy Laws</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#civil-rights-legislation">Civil Rights Legislation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rehabilitation-act-of-1973">The Rehabilitation Act of 1973</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individuals-with-disabilities-education-act">Individuals with Disabilities Education Act</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tech-act-of-1988">Tech Act of 1988</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#americans-with-disabilities-act-of-1990">Americans with Disabilities Act of 1990</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chafee-amendment-of-2002">Chafee Amendment of 2002</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#every-student-succeeds-act-essa-of-2015">Every Student Succeeds Act (ESSA) of 2015</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-legislation">Privacy Legislation</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#health-insurance-portability-and-accountability-act-hipaa">Health Insurance Portability and Accountability Act (HIPAA)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#children-s-online-privacy-protection-act-coppa">Children’s Online Privacy Protection Act (COPPA)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#family-educational-rights-and-privacy-act-ferpa">Family Educational Rights and Privacy Act (FERPA)</a></li>
@@ -396,6 +401,9 @@ document.write(`
 <p>The movement for disability rights and legislation guaranteeing persons with disabilities rights emerged during the same time as the civil right movement. This section will provide a historical overview of legislation impacting assistive technology in educational settings.</p>
 <div class="mermaid">
             timeline
+    accTitle: Historical timeline of assistive technology legislation
+    accDescr: A timeline providing an overview of the legislation passed starting in 1973 with the Rehabilitation Act and ending in 2015 with the Every Student Succeeds Act. Details are provided in the text body below.
+
     title History of Assistive Technology Legislation
     1973 : The Rehabilitation Act : Section 504
     1975 : Education for All Handicapped Children Act (EHA) : Later renamed IDEA 
@@ -404,43 +412,50 @@ document.write(`
     1997 : IDEA amended : Including AT considerations
     2002 : Chafee Amendment : Access to copyrighted materials
     2004 : IDEA reauthorized : Establishment of National Instructional Materials Accessibility Standard (NIMAS)
-    2015 : Every Student Succeeds Act : Implementation for Accessible Educational Materials (AEM)
-        </div><section id="the-rehabilitation-act-of-1973">
-<h2>The Rehabilitation Act of 1973<a class="headerlink" href="#the-rehabilitation-act-of-1973" title="Permalink to this heading">#</a></h2>
+    2015 : Every Student Succeeds Act : Implementation for Accessible Educational Materials (AEM) : Integration of Universal Design for Learning (UDL)
+        </div><section id="civil-rights-legislation">
+<h2>Civil Rights Legislation<a class="headerlink" href="#civil-rights-legislation" title="Permalink to this heading">#</a></h2>
+<section id="the-rehabilitation-act-of-1973">
+<h3>The Rehabilitation Act of 1973<a class="headerlink" href="#the-rehabilitation-act-of-1973" title="Permalink to this heading">#</a></h3>
 <p>The Rehabilitation Act of 1973 is a federal law that prohibits discrimination against individuals with disabilities in programs and activities that receive federal funding. Section 504 of the Rehabilitation Act is a specific provision that prohibits discrimination against individuals with disabilities in any program or activity receiving federal financial assistance. This includes educational institutions, such as schools and universities.</p>
 <p>In the context of assistive technology (AT), Section 504 requires schools and other educational institutions to provide necessary accommodations and modifications to ensure that students with disabilities have equal access to educational opportunities. This includes the provision of AT devices and services as needed to support the education of students with disabilities. Schools must also ensure that students with disabilities have access to the same educational programs and activities as their non-disabled peers, and that they are not discriminated against on the basis of their disability.</p>
 <p>Section 504 accommodations require proof of medical necessity and are updated each academic school year. This accommodation is applied by students who do qualify for special education services under IDEA.</p>
 <p>To learn more about Section 504: <a class="reference external" href="https://www.understood.org/en/articles/section-504-of-the-rehabilitation-act-of-1973-what-you-need-to-know">Section 504 of the Rehabilitation Act of 1973: What You Need to Know</a></p>
 </section>
 <section id="individuals-with-disabilities-education-act">
-<h2>Individuals with Disabilities Education Act<a class="headerlink" href="#individuals-with-disabilities-education-act" title="Permalink to this heading">#</a></h2>
+<h3>Individuals with Disabilities Education Act<a class="headerlink" href="#individuals-with-disabilities-education-act" title="Permalink to this heading">#</a></h3>
 <p>The Education for All Handicapped Children Act (EHA), passed in 1975 was later renamed the Individuals with Disabilities Education Act (IDEA). This law required schools to provide a “free and appropriate public education” (FAPE) to children with disabilities, including the provision of necessary special education and related services, such as AT.</p>
 <p>In 2004, the Individuals with Disabilities Education Act (IDEA) was reauthorized, with additional emphasis on the use of AEM to support the education of students with disabilities. The reauthorization included a requirement for schools to provide AEM to students with print disabilities in a timely manner, as part of their special education and related services. This requirement is known as the National Instructional Materials Accessibility Standard (NIMAS).</p>
 <p>Student’s found eligible for special education services under IDEA may qualify for assistive technology as part of a student’s Individualized Education Plan. AT needs to be considered during each annual review.</p>
 <p>To learn more about IDEA: <a class="reference external" href="https://www.understood.org/articles/individuals-with-disabilities-education-act-idea-what-you-need-to-know">What is the Individuals with Disabilities Education Act (IDEA)?</a></p>
 </section>
 <section id="tech-act-of-1988">
-<h2>Tech Act of 1988<a class="headerlink" href="#tech-act-of-1988" title="Permalink to this heading">#</a></h2>
+<h3>Tech Act of 1988<a class="headerlink" href="#tech-act-of-1988" title="Permalink to this heading">#</a></h3>
 <p>The Technology-Related Assistance for Individuals with Disabilities Act (Tech Act) was passed. This law provided funding for states to establish and operate programs that provided AT services to individuals with disabilities, including those in education settings. This law reauthorized in 2004 is now called AT Act.</p>
 <p>To learn more about the AT Act: <a class="reference external" href="https://ataporg.org/at-act-info/">Assistive Technology Act Information</a></p>
 <p>To locate your state’s AT Act Provider: <a class="reference external" href="https://at3center.net/state-at-programs/">Directory of State AT Programs</a></p>
 </section>
 <section id="americans-with-disabilities-act-of-1990">
-<h2>Americans with Disabilities Act of 1990<a class="headerlink" href="#americans-with-disabilities-act-of-1990" title="Permalink to this heading">#</a></h2>
+<h3>Americans with Disabilities Act of 1990<a class="headerlink" href="#americans-with-disabilities-act-of-1990" title="Permalink to this heading">#</a></h3>
 <p>The Americans with Disabilities Act (ADA) was passed. This law prohibited discrimination against individuals with disabilities in all aspects of life, including education. The ADA required schools to provide reasonable accommodations and modifications to ensure that students with disabilities had equal access to educational opportunities, including the use of AT. This law governs reasonable accommodations and accessibility measures at the post- secondary level.</p>
 <p>To learn more about the ADA: <a class="reference external" href="https://www.understood.org/articles/americans-with-disabilities-act-ada">What is the Americans with Disabilities Act (ADA)?</a></p>
 </section>
 <section id="chafee-amendment-of-2002">
-<h2>Chafee Amendment of 2002<a class="headerlink" href="#chafee-amendment-of-2002" title="Permalink to this heading">#</a></h2>
+<h3>Chafee Amendment of 2002<a class="headerlink" href="#chafee-amendment-of-2002" title="Permalink to this heading">#</a></h3>
 <p>The Chafee amendment, also known as the Technology, Education, and Copyright Harmonization (TEACH) Act, was passed in 2002 as an amendment to the Copyright Act. The Chafee amendment allows for the creation and dissemination of accessible versions of copyrighted materials for individuals with disabilities, without the need to obtain permission from the copyright holder. This includes the creation of accessible educational materials (AEM) for students with disabilities.</p>
 <p>In 2010, the U.S. Department of Education issued regulations implementing the NIMAS requirement, which requires publishers to provide electronic files of their textbooks and related materials in a standardized format that can be easily converted into accessible formats, such as Braille, large print, and audio.</p>
 </section>
 <section id="every-student-succeeds-act-essa-of-2015">
-<h2>Every Student Succeeds Act (ESSA) of 2015<a class="headerlink" href="#every-student-succeeds-act-essa-of-2015" title="Permalink to this heading">#</a></h2>
+<h3>Every Student Succeeds Act (ESSA) of 2015<a class="headerlink" href="#every-student-succeeds-act-essa-of-2015" title="Permalink to this heading">#</a></h3>
 <p>In 2015, the Every Student Succeeds Act (ESSA) was passed, which included additional provisions related to AEM. ESSA requires states to develop and implement a plan for providing AEM to students with disabilities who need them, and to ensure that AEM is provided in a timely manner. ESSA also requires states to provide professional development and technical assistance to educators on the use and creation of AEM.</p>
+<p>Universal Design for Learning (UDL), included in ESSA, is a framework for designing instruction that provides all students with equal opportunities to learn and succeed.</p>
+<p>Under ESSA, states are required to develop and implement comprehensive plans for improving student achievement and ensuring that all students have access to high-quality education. These plans must include strategies for supporting the learning needs of all students, including those with disabilities and English language learners.</p>
+<p>UDL is specifically mentioned as a strategy that states can use to support the learning needs of all students. ESSA encourages states to incorporate UDL principles into their planning and implementation of educational programs and services, including professional development for educators.</p>
+<p>ESSA also includes provisions related to the use of technology to support learning, which is a key component of UDL. The law encourages the use of technology to personalize and enhance learning experiences for all students, including those with disabilities and English language learners.</p>
 </section>
-<section id="privacy-laws">
-<h2>Privacy Laws<a class="headerlink" href="#privacy-laws" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="privacy-legislation">
+<h2>Privacy Legislation<a class="headerlink" href="#privacy-legislation" title="Permalink to this heading">#</a></h2>
 <p>HIPAA, COPPA, and FERPA are three federal laws that protect the privacy of student information in different contexts. Here is a summary of each law:</p>
 <section id="health-insurance-portability-and-accountability-act-hipaa">
 <h3>Health Insurance Portability and Accountability Act (HIPAA)<a class="headerlink" href="#health-insurance-portability-and-accountability-act-hipaa" title="Permalink to this heading">#</a></h3>
@@ -549,13 +564,16 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rehabilitation-act-of-1973">The Rehabilitation Act of 1973</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individuals-with-disabilities-education-act">Individuals with Disabilities Education Act</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tech-act-of-1988">Tech Act of 1988</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#americans-with-disabilities-act-of-1990">Americans with Disabilities Act of 1990</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chafee-amendment-of-2002">Chafee Amendment of 2002</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#every-student-succeeds-act-essa-of-2015">Every Student Succeeds Act (ESSA) of 2015</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-laws">Privacy Laws</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#civil-rights-legislation">Civil Rights Legislation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-rehabilitation-act-of-1973">The Rehabilitation Act of 1973</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individuals-with-disabilities-education-act">Individuals with Disabilities Education Act</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tech-act-of-1988">Tech Act of 1988</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#americans-with-disabilities-act-of-1990">Americans with Disabilities Act of 1990</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chafee-amendment-of-2002">Chafee Amendment of 2002</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#every-student-succeeds-act-essa-of-2015">Every Student Succeeds Act (ESSA) of 2015</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-legislation">Privacy Legislation</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#health-insurance-portability-and-accountability-act-hipaa">Health Insurance Portability and Accountability Act (HIPAA)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#children-s-online-privacy-protection-act-coppa">Children’s Online Privacy Protection Act (COPPA)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#family-educational-rights-and-privacy-act-ferpa">Family Educational Rights and Privacy Act (FERPA)</a></li>

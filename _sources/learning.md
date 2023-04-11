@@ -1,8 +1,14 @@
 # AT for Learning Disabilities
 
-## Dyslexia
+## Impact on Learning
 
-### Tools to support Writing
+## Assessments
+
+## Tools
+
+### Supporting Literacy
+
+#### Tools to support Writing
 
 The following are available **Word Prediction Tools**
 
@@ -30,12 +36,16 @@ Read and write for google chrome developed by TextHelp...
 ```
 ````
 
-## Dysgraphia
+### Tools to Support Reading
 
-## Dyscalculia
+### Tools to Support Math
 
-## Executive Skill Disfunction
+### Supporting Cognition
 
-## ADHD
+#### Time Management
 
-## Memory Impairments
+#### Materials Management
+
+#### Sustained Attention
+
+#### Memory Impairments
