@@ -1,0 +1,41 @@
+
+div.blue > div.sd-card-header {
+    background-color: #3A7CB3 !important;
+    color: white !important;
+}
+
+div.blue > div.sd-card-body {
+    background-color: #B5DDF0 !important;
+}
+
+
+div.purple > div.sd-card-header {
+    background-color: #6B5290
+     !important;
+    color: white !important;
+}
+
+div.purple > div.sd-card-body {
+    background-color: #C8BFD7 !important;
+}
+
+div.green > div.sd-card-header {
+    background-color: #40854A
+     !important;
+    color: white !important;
+}
+
+div.green > div.sd-card-body {
+    background-color: #B7D9C0 !important;
+}
+
+
+div.sd-card-body > details.sd-dropdown {
+    background-color: lightgray !important;
+    box-shadow: none !important;
+}
+
+div.sd-card-header > p.sd-card-text{
+    color: white;
+}
+

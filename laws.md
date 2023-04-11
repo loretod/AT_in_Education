@@ -4,6 +4,9 @@ The movement for disability rights and legislation guaranteeing persons with dis
 
 ```{mermaid}
 timeline
+    accTitle: Historical timeline of assistive technology legislation
+    accDescr: A timeline providing an overview of the legislation passed starting in 1973 with the Rehabilitation Act and ending in 2015 with the Every Student Succeeds Act. Details are provided in the text body below.
+
     title History of Assistive Technology Legislation
     1973 : The Rehabilitation Act : Section 504
     1975 : Education for All Handicapped Children Act (EHA) : Later renamed IDEA 
@@ -12,10 +15,12 @@ timeline
     1997 : IDEA amended : Including AT considerations
     2002 : Chafee Amendment : Access to copyrighted materials
     2004 : IDEA reauthorized : Establishment of National Instructional Materials Accessibility Standard (NIMAS)
-    2015 : Every Student Succeeds Act : Implementation for Accessible Educational Materials (AEM)
+    2015 : Every Student Succeeds Act : Implementation for Accessible Educational Materials (AEM) : Integration of Universal Design for Learning (UDL)
 ```
 
-## The Rehabilitation Act of 1973
+## Civil Rights Legislation
+
+### The Rehabilitation Act of 1973
 
 The Rehabilitation Act of 1973 is a federal law that prohibits discrimination against individuals with disabilities in programs and activities that receive federal funding. Section 504 of the Rehabilitation Act is a specific provision that prohibits discrimination against individuals with disabilities in any program or activity receiving federal financial assistance. This includes educational institutions, such as schools and universities.
 
@@ -25,7 +30,7 @@ Section 504 accommodations require proof of medical necessity and are updated ea
 
 To learn more about Section 504: [Section 504 of the Rehabilitation Act of 1973: What You Need to Know](https://www.understood.org/en/articles/section-504-of-the-rehabilitation-act-of-1973-what-you-need-to-know)
 
-## Individuals with Disabilities Education Act
+### Individuals with Disabilities Education Act
 
 The Education for All Handicapped Children Act (EHA), passed in 1975 was later renamed the Individuals with Disabilities Education Act (IDEA). This law required schools to provide a "free and appropriate public education" (FAPE) to children with disabilities, including the provision of necessary special education and related services, such as AT.
 
@@ -35,7 +40,7 @@ Student's found eligible for special education services under IDEA may qualify f
 
 To learn more about IDEA: [What is the Individuals with Disabilities Education Act (IDEA)?](https://www.understood.org/articles/individuals-with-disabilities-education-act-idea-what-you-need-to-know)
 
-## Tech Act of 1988
+### Tech Act of 1988
 
 The Technology-Related Assistance for Individuals with Disabilities Act (Tech Act) was passed. This law provided funding for states to establish and operate programs that provided AT services to individuals with disabilities, including those in education settings. This law reauthorized in 2004 is now called AT Act.
 
@@ -43,23 +48,31 @@ To learn more about the AT Act: [Assistive Technology Act Information](https://a
 
 To locate your state's AT Act Provider: [Directory of State AT Programs](https://at3center.net/state-at-programs/)
 
-## Americans with Disabilities Act of 1990
+### Americans with Disabilities Act of 1990
 
 The Americans with Disabilities Act (ADA) was passed. This law prohibited discrimination against individuals with disabilities in all aspects of life, including education. The ADA required schools to provide reasonable accommodations and modifications to ensure that students with disabilities had equal access to educational opportunities, including the use of AT. This law governs reasonable accommodations and accessibility measures at the post- secondary level.
 
 To learn more about the ADA: [What is the Americans with Disabilities Act (ADA)?](https://www.understood.org/articles/americans-with-disabilities-act-ada)
 
-## Chafee Amendment of 2002
+### Chafee Amendment of 2002
 
 The Chafee amendment, also known as the Technology, Education, and Copyright Harmonization (TEACH) Act, was passed in 2002 as an amendment to the Copyright Act. The Chafee amendment allows for the creation and dissemination of accessible versions of copyrighted materials for individuals with disabilities, without the need to obtain permission from the copyright holder. This includes the creation of accessible educational materials (AEM) for students with disabilities.
 
 In 2010, the U.S. Department of Education issued regulations implementing the NIMAS requirement, which requires publishers to provide electronic files of their textbooks and related materials in a standardized format that can be easily converted into accessible formats, such as Braille, large print, and audio.
 
-## Every Student Succeeds Act (ESSA) of 2015
+### Every Student Succeeds Act (ESSA) of 2015
 
 In 2015, the Every Student Succeeds Act (ESSA) was passed, which included additional provisions related to AEM. ESSA requires states to develop and implement a plan for providing AEM to students with disabilities who need them, and to ensure that AEM is provided in a timely manner. ESSA also requires states to provide professional development and technical assistance to educators on the use and creation of AEM.
 
-## Privacy Laws
+Universal Design for Learning (UDL), included in ESSA, is a framework for designing instruction that provides all students with equal opportunities to learn and succeed.
+
+Under ESSA, states are required to develop and implement comprehensive plans for improving student achievement and ensuring that all students have access to high-quality education. These plans must include strategies for supporting the learning needs of all students, including those with disabilities and English language learners.
+
+UDL is specifically mentioned as a strategy that states can use to support the learning needs of all students. ESSA encourages states to incorporate UDL principles into their planning and implementation of educational programs and services, including professional development for educators.
+
+ESSA also includes provisions related to the use of technology to support learning, which is a key component of UDL. The law encourages the use of technology to personalize and enhance learning experiences for all students, including those with disabilities and English language learners.
+
+## Privacy Legislation
 
 HIPAA, COPPA, and FERPA are three federal laws that protect the privacy of student information in different contexts. Here is a summary of each law:
 
@@ -103,7 +116,7 @@ To qualify for Medicaid coverage of AT, individuals must meet certain eligibilit
 
 ### Private Insurance
 
-Private insurance coverage for assistive technology (AT) varies by insurance plan and depends on the specific needs of the individual. In general, private insurance may cover the cost of AT devices and services if they are deemed medically necessary and if they help the individual achieve or maintain functional independence. 
+Private insurance coverage for assistive technology (AT) varies by insurance plan and depends on the specific needs of the individual. In general, private insurance may cover the cost of AT devices and services if they are deemed medically necessary and if they help the individual achieve or maintain functional independence.
 
 To qualify for private insurance coverage of AT, individuals must meet certain eligibility requirements, including medical necessity criteria and coverage limitations. Private insurance coverage of AT is typically provided through an insurance plan, which may have its own specific guidelines and procedures for determining coverage.
 

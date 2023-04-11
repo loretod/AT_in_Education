@@ -3,7 +3,7 @@
 
 title: Assistive Technology for Education
 author: Loreto Dumitrescu
-logo: logo.png
+logo: img/logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -21,16 +21,18 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  url: https://github.com/loretod/AT_in_Education  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  favicon: help.png
+  favicon: img/help.png
   use_issues_button: true
   use_repository_button: true
+  comments:
+    hypothesis: true
   extra_footer: |
     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
@@ -39,3 +41,6 @@ sphinx:
     - sphinxcontrib.mermaid
   config:
     html_show_copyright: false
+  html_output:
+    html_static_path = ['_static']
+    html_css_files = ['style.css']

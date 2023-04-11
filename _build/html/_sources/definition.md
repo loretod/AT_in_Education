@@ -11,6 +11,7 @@ AT is often broken down into 3 main categories:
 ```{mermaid}
 
 flowchart TD
+    
     A[Assistive Technology] --> B(Low Tech)
     A --> C(Mid Tech)
     A --> D(High Tech)
