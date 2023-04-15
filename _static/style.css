@@ -29,9 +29,19 @@ div.green > div.sd-card-body {
     background-color: #B7D9C0 !important;
 }
 
+div.sett > div.sd-card-header {
+    background-color: #5D7AEF
+     !important;
+    color: white !important;
+}
+
+div.sett > div.sd-card-body {
+    background-color: #CFDDFC !important;
+}
 
 div.sd-card-body > details.sd-dropdown {
     background-color: lightgray !important;
+    color: black !important;
     box-shadow: none !important;
 }
 
@@ -39,3 +49,12 @@ div.sd-card-header > p.sd-card-text{
     color: white;
 }
 
+div.simple > div.sd-card-header {
+    background-color: black
+     !important;
+    color: white !important;
+}
+
+div.simple > div.sd-card-body {
+    background-color: #eaecf1 !important;
+}
