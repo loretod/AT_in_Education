@@ -8,6 +8,18 @@ OpenAT rests on three primary pillars:
 
 ```{mermaid}
 flowchart LR
-    A[fa:fa-share-nodes Open Source] ~~~ B[fa:fa-people-group Crowd Sourcing Co- Design]
+    A[fa:fa-share-nodes Open Source] ~~~ B[fa:fa-people-group Crowd Sourcing]
     B ~~~ C[fa:fa-hammer Maker Movement]
 ```
+
+## Cardboard Construction
+
+## PVC Pipe
+
+## Coroplast
+
+## 3D Printing
+
+## CNC Routing
+
+## Microcontrollers

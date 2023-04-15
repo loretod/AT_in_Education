@@ -7,10 +7,14 @@ chapters:
 - file: definition
 - file: technology
 - file: laws
+- file: rights
+- file: aem
 - file: learning
 - file: motor
+- file: ergonomics
 - file: sensory
 - file: aac
+- file: adl
 - file: openAT
 - file: glossary
 - file: bibliography
